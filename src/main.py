@@ -12,7 +12,7 @@ class Main:
 
         pygame.init()
         self.screen = pygame.display.set_mode( (WIDTH, HEIGHT) )
-        pygame.display.set_caption("Chess")
+        pygame.display.set_caption("Chess!")
         
         self.game = Game()
 
